@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Homework 50</title>
+</head>
+<body>
+    <header>
+        <div class="header__content">
+            <div class="header__logo">
+                <img src="./styles/670020.png" alt="">
+            </div>
+            <h1>GitHub</h1>
+            <div class="search__inner">
+            <input type="text" id="usernameInput" placeholder="Введіть ім’я користувача">
+            <button id="searchButton">Пошук</button>
+            <button id="randomButton">Випадковий користувач</button>
+            </div>
+        </div>
+    </header>
+    <div class="wrrap">
+        <div class="container">
+        <h2>GitHub User Profiles</h2>
+            <div id="profileContainer" class="hidden">
+                <img id="avatar" src="" alt="User Avatar">
+                <h2 id="username"></h2>
+                <p id="bio"></p>
+                <p id="location"></p>
+                <p id="followers"></p>
+            </div>  
+        </div>
+        <div id="reposContainer"></div>    
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
